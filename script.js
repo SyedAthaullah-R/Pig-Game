@@ -46,8 +46,8 @@ function init(){
     dicePic.classList.add("hidden");
     player1El.classList.add("player--active");
     player2El.classList.remove("player--active");
-    document.querySelector(".player--0".classList.remove("player--winner"));
-    document.querySelector(".player--1".classList.remove("player--winner"));
+    document.querySelector(".player--0").classList.remove("player--winner");
+    document.querySelector(".player--1").classList.remove("player--winner");
     }
 
 init();
